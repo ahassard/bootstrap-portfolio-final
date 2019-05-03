@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum|Permanent+Marker');
+
+
+.btn {
+    background-color:  #3d3277;
+    color:white;
+    border-radius: 14px;
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.801);
+}
+
+.btn:hover {
+    opacity: 0.6;
+    color: #b30ef4;
+}
+
+p {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 30px;
+    color: #3d3277;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+.display-1, .display-4, .lead {
+    color: white;
+}
+.lead {
+    font-size: 30px;
+}
+
+.col-sm-12, .col-sm-6 {
+    text-align: center;
+}
+.container
+.text-center> a {
+    color: #b30ef4;
+}
+.text-center> a:hover {
+    text-shadow: 2px 2px 3px  #3d3277;
+    text-decoration: none;
+  
+}
+
+/*NAVIGATION STYLING*/
+.navbar {
+    background-color: #3d3277;
+}
+
+.navbar-brand> img {
+   max-height: 6em;
+  
+}
+
+
+.navbar-nav>.nav-item> .nav-link {
+    font-size: 30px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    padding: 20px;
+
+}
+
+.nav-item> .nav-link:hover{
+    opacity: 0.4;
+
+}
+
+/*JUMBOTRON STYLING*/
+
+.jumbotron {
+    background-image: url('../images/tapedeck.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    min-width: 500px;
+    
+}
+
+.jumbotron> .container> .display-1 {
+    font-family: 'Permanent Marker', cursive;
+    padding-top: 20px;
+    color: white;
+  
+}
+
+.jumbotron> .container> .display-4, .lead {
+    font-family: 'Cuprum', sans-serif;
+}
+
+/*Portfolio and Photoshop Styling*/
+.portfolio {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #cecece;
+    min-height: 100vh;
+    min-width: 500px; 
+    text-align: center;  
+}
+.photoshop {
+    margin-top: 160px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #cecece;
+    min-height: 100vh;
+    min-width: 500px; 
+    text-align: center; 
+    padding-top: 40px;
+}
+
+.carousel-item> img {
+   text-align: center;
+    max-height: 800px;
+    max-width: 1100px;
+    min-width: 700px;
+    opacity: 0.7;
+}
+
+
+.carousel-item> a> img {
+  text-align: center;
+  max-height: 700px;
+  max-width: 1100px;
+  min-width: 700px;
+  opacity: 0.4; 
+}
+
+.carousel-caption> p {
+  text-shadow: 2px 2px 3px  #b30ef4;
+}
+
+/*FOOTER STYLING*/
+
+footer {
+  justify-content: center;
+}
+.footer {
+  background-color: #cecece;
+}
+
+.footerTitle {
+  color:#1977B4;
+  font-style: none;
+}
+
+.list-unstyled {
+  color:#1977B4;
+  font-style: none;
+  padding: 5px;
+
+}
+
+.list-unstyled> li {
+  color: #3d3277;
+  font-style: none;
+  padding: 5px;
+}
+
+.list-unstyled> li> a {
+  color: #3d3277;
+  font-style: none;
+  padding: 5px;
+}
+
+.list-unstyled> li> a> img {
+  height: 2em;
+}
+
+.list-unstyled> li> a:hover {
+  color: #3d3277;
+  font-style: none;
+  text-decoration: none;
+  opacity: 0.4;
+  padding: 5px;
+}
+
+.list-inline-item> a{
+  color: #b30ef4;
+
+}
+.address {
+  color: #3d3277;
+  font-family: 'Cuprum', sans-serif;
+}
+
+.address> a {
+  color: #b30ef4;
+}
+
+
+
